@@ -1,15 +1,20 @@
 let choicesEl = document.querySelector("#choices");
+let timerEl = document.querySelector("#timer");
 
-let timer = 90;
+
+
+
 
 //if answer is wrong
-timer -= 10;
+//timer -= 10;
 
 let intervalId = setInterval(function(){
 
-    //textcontent timer
+    //timer (timerEl = 90);
 
 } ,1000
+ 
+
 );
 
 //gameover function
